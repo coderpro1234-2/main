@@ -21,7 +21,7 @@ class comment {
           text: 'placeholder',
           arguments: {}
           }
-        },
+        }
       ]
     };
   }
