@@ -14,13 +14,6 @@ class comment {
               defaultValue: 'comment'
             }
           }
-        },
-        {
-          opcode: 'placeholder',
-          blockType: Scratch.BlockType.COMMAND,
-          text: 'placeholder',
-          arguments: {}
-          }
         }
       ]
     };
