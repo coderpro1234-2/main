@@ -39,6 +39,14 @@ class comment {
       ]
     };
   }
+  
+   placeboo({}) {
+    return false;
+  }
+  placerep({}) {
+    return ;
+  }
+
 }
 
 Scratch.extensions.register(new comment());
