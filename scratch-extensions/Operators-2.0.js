@@ -82,16 +82,16 @@ class Operators2 {
             }
           }
         },
-         {
-           opcode: 'xor',
-           blockType: Scratch.BlockType.REPORTER,
-           text: '[LEFT] ^ [RIGHT]',
-           arguments: {
-             LEFT: {
-               type: Scratch.ArgumentType.NUMBER,
-             },
-             RIGHT: {
-               type: Scratch.ArgumentType.NUMBER,
+        {
+            opcode: 'xor',
+            blockType: Scratch.BlockType.REPORTER,
+            text: '[LEFT] ^ [RIGHT]',
+            arguments: {
+              LEFT: {
+                type: Scratch.ArgumentType.NUMBER,
+              },
+              RIGHT: {
+                type: Scratch.ArgumentType.NUMBER,
             }
           }
         }
@@ -113,10 +113,10 @@ class Operators2 {
    }
   powerof({ LEFT, RIGHT }) {
     return LEFT ** RIGHT;
-    }
+   }
   and({ LEFT, RIGHT }) {
     return LEFT & RIGHT;
-      }
+   }
   xor({ LEFT, RIGHT }) {
     return LEFT ^ RIGHT;
   }
