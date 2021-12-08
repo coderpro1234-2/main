@@ -19,6 +19,7 @@ class comment {
           opcode: 'placecom',
           blockType: Scratch.BlockType.COMMAND,
           text: 'Placeholder',
+          arguments: {}
             }
           }
         }
