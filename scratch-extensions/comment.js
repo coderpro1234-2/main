@@ -10,7 +10,8 @@ class comment {
           text: '// [CMT] //',
           arguments: {
             CMT: {
-              type: Scratch.ArgumentType.NUMBER,
+              type: Scratch.ArgumentType.STRING,
+              defaultValue: ''
             }
           }
         }
