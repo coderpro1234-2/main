@@ -11,7 +11,7 @@ class comment {
           arguments: {
             CMT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: ''
+              defaultValue: 'comment'
             }
           }
         }
