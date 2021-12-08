@@ -21,32 +21,10 @@ class comment {
           text: 'Placeholder',
             }
           }
-        },
-        {
-          opcode: 'placeboo',
-          blockType: Scratch.BlockType.BOOLEAN,
-          text: 'Placeholder',
-            }
-          }
-        }
-        {
-          opcode: 'placerep',
-          blockType: Scratch.BlockType.REPORTER,
-          text: 'Placeholder',
-            }
-          }
         }
       ]
     };
   }
-  
-   placeboo({}) {
-    return false;
-  }
-  placerep({}) {
-    return ;
-  }
-
 }
 
 Scratch.extensions.register(new comment());
