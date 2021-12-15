@@ -11,6 +11,7 @@ class placeh {
           arguments: {
             argu: {
               type: Scratch.ArgumentType.STRING,
+              defaultValue: '0'
             }
           }
         },
@@ -21,6 +22,7 @@ class placeh {
           arguments: {
             argu: {
               type: Scratch.ArgumentType.STRING,
+              defaultValue: '0'
             }
           }
         }
