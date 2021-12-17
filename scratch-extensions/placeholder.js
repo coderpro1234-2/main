@@ -25,6 +25,13 @@ class placeh {
               defaultValue: '0'
             }
           }
+        },
+        {
+          opcode: 'command',
+          blockType: Scratch.BlockType.COMMAND,
+          text: 'blank',
+          arguments: {
+          }
         }
       ]
     };
