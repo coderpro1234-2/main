@@ -20,7 +20,7 @@ class calc {
   }
   
   calc({ argu }) {
-    return argu + 0;
+    return Number(argu);
   }
 }
 
