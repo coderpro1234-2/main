@@ -1,4 +1,4 @@
-print("This is Terminal v1.2")
+print("This is Terminal v1.3")
 print("Type 'Help' for commands")
 while True:
     text = input("")
@@ -43,6 +43,16 @@ while True:
         num =(str(text).isnumeric())
         if num == True:
             text = int(num1) / int(num2)
+            print(text)
+        else:
+            print("NaN")
+    elif text == "power":
+        num1 = input("what? ")
+        num2 = input("to the power of ")
+        text = num1 + num2
+        num =(str(text).isnumeric())
+        if num == True:
+            text = int(num1) ** int(num2)
             print(text)
         else:
             print("NaN")
