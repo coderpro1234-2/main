@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript" src='http://code.jquery.com/jquery-latest.min.js'></script>
+<script>
+	var username = ''
+  function getfollows() {
+    username = document.getElementById("uname").value;
+    load(event)
+	}
+  
+  function load(e) {
+  	$.get("http://scratch.mit.edu/users/" + username + "/followers/",loaded);
+  }
+
+  function loaded(data) {
+  	var $dom = $(data);
+  	var $users = $dom.find('div.box-head').children();
+		var $out = $("#result");
+		document.getElementById("result").innerText = ""
+		$out.prepend($users)
+  };
+
+</script>
+</head>
+<body>
+	<center>
+	  <h1>Live Scratch Follow Count</h1>
+	  <form action="javascript:void(0); getfollows()">
+	    <input id="uname" type="text" placeholder="type a username here" required>
+  	  <input type="submit" value="Submit">
+    </form>
+    <div id='result'></div>
+	</center>
+</body>
+</html>
